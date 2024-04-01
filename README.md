@@ -1,4 +1,4 @@
-# CIS 600 Fundamental Data and Knowledge Mining
+# CIS 600 Fundamentals of Data and Knowledge Mining
 ## Table of Contents
 - [Week 1 Data Mining Overview](./week1/README.md)
 - [Week 2 Data Types and Preparation](./week2/README.md)
