@@ -13,15 +13,17 @@
 
 ## Data Mining Overview
 
-### What is Data Mining?
+### Data Mining Overview
+
+#### What is Data Mining?
 - many definitions
   - automatically discovering useful information in large data repositories
   - nontrivial extraction of implicit, previously unknown, and potentially useful information from data
 
-### Origins of Data Mining
+#### Origins of Data Mining
 - draws ideas form machine learning/AI, Statistics, and database systems
 
-## CRISP-DM
+### CRISP-DM
 - Cross Industry Standard Process for Data Mining
   - Business understanding
   - data understanding
@@ -30,7 +32,7 @@
   - evaluation
   - deployment
 
-### CRISP-DM: Phases
+#### CRISP-DM: Phases
 - Business understanding
   - project objectives and requirements understanding, data mining problem definition
 - Data Understanding
@@ -44,7 +46,7 @@
 - Deployment
   - Result model deployment, repeatable data mining process implementation
 
-### Phases and Tasks
+#### Phases and Tasks
 - business understanding
   - determine business objectives
   - assess situation
@@ -77,9 +79,9 @@
   - review project
 
 
-## Classification
+### Classification
 
-### Data Mining Task 1: Classification
+#### Data Mining Task 1: Classification
 - Real-world examples
   - admission funnel process: classify if an admit will decide to enroll
   - e-mail span filter: classify an incoming e-mail to either spam or not spam categories
@@ -93,7 +95,7 @@
   D(Test Set) --> C
   ```
 
-  ### Fraud Detection
+  #### Fraud Detection
   
   - fraud detection can be modeled as a classification problem
     - what is the goal? to predict fraudulent cases in credit card transactions
@@ -105,9 +107,9 @@
       - the time, cost and items of transaction
 
     
-## Clustering
+### Clustering
 
-### Data mining task 2: Clustering
+#### Data mining task 2: Clustering
 - A real-world example:
   - customer segmentation
     - goal: to find the subgroups among a large customer base
@@ -119,47 +121,47 @@
     - clustering analysis is suitable for exploratory analysis for datasets that we don't know much about
     - interpretation of clusters
 
-### Can a clustering model predict?
+#### Can a clustering model predict?
 - clustering analysis is considered as a "descriptive analysis" because the main purpose is to summarize the existing data, not make a prediction.
 - but clustering model can be used for prediction. eg after an admit pool is clustered into Enrolled and Not Enrolled clusters, given a new admin, we can predict which cluster this customer belongs to, based on his/her similarity with the members in each cluster
 - clustering is called "unsupervised learning" and classification is called "supervised learning"
 
-## Association Rule Mining
+### Association Rule Mining
 
-### Data Mining Task 3: Association Roles
+#### Data Mining Task 3: Association Roles
 - given a set of transactions, find
   - items that co-occur frequently
   - rules like "if a customer bought x, he or she would by y, too"
 
-### Data Mining Task 4: Anomaly Detection
+#### Data Mining Task 4: Anomaly Detection
 - Detect significant deviations from normal behavior
 - applications:
   - credit card fraud detection
   - network intrusion detection
 - can be modeled as a classification problem
 
-## Regression
+### Regression
 
-### Data Mining Task 5: Regression
+#### Data Mining Task 5: Regression
 - Example:
   - predict tomorrow's stock price based on the past price
   - work on continuous variables
   - usually covered in statistics class, not data mining class.
 
-## Predictive vs Descriptive Data Mining
+### Predictive vs Descriptive Data Mining
 - predictive analysis
   - use some variables to predict unknown of future values of other variables: classification, regression
 - descriptive analysis
   - derive patterns (correlations, trends, clusters, and anomalies) that summarize the underlying relationships in data
 - sometimes the difference between descriptive and predictive analysis is not clear
 
-### Descriptive Questions
+#### Descriptive Questions
 - what are the average age and income difference between the customers who repsonded vs the non responders?
 - is there a corelation between age and income
 - what is the response rate of people with two or more children
 - is there correlation between the number of children and the decision to buy PEP?
 
-### Predictive Questions
+#### Predictive Questions
 - given a customer's demographical profile, what is the chance that he or she would buy the product PEP?
 
 
