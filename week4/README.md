@@ -165,8 +165,8 @@ homogeneous/low degree of impurity
 - until all nodes are pure with positive examples or all negative examples
 
 #### Splitting Based on Gain Ratio
-$\text{GainRATIO}_{\text{split}} = \frac{\text{GAIN}_{\text{split}}}{\text{SplitINFO}} \\
-\text{SplitINFO} = -\sum_{i=1}^{k} \frac{n_i}{n} \log_2 \frac{n_i}{n}$
+$$\text{GainRATIO}_{\text{split}} = \frac{\text{GAIN}_{\text{split}}}{\text{SplitINFO}}$$
+$$\text{SplitINFO} = -\sum_{i=1}^{k} \frac{n_i}{n} \log_2 \frac{n_i}{n}$$
 
 > parent node, p is split into k partitions. n_i is the number of records in partition i
 
